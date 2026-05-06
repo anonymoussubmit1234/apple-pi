@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & results (downloaded / generated; see README for env-var paths)
+inference_outputs/
+gt/
+results/
+stage/
+keyframe_stage/
+
+# API / secrets
+.env
+*.token
+api_usage.csv
+api_call_count.txt
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+data/
